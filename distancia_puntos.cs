@@ -46,7 +46,7 @@ class Program
 
         Punto puntoOrigen3D = new Punto(0, 0, 0);
         Punto puntoDestino3D = new Punto(3, 4, 5);
-        double distancia3D = puntoOrigen3D.MedirDistancia(puntoDestino3D);
+        double distancia3D = puntoOrigen3D.MedirDistancia(puntoDestino3D); 
 
         Console.WriteLine("La distancia en 3D es: " + distancia3D);
     }
